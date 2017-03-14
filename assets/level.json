@@ -1,0 +1,59 @@
+{ "height":11,
+ "layers":[
+        {
+         "data":[3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 0, 0, 0, 0, 0, 0, 0, 7, 7, 7, 7, 0, 0, 0, 0, 0, 0, 0, 0, 3, 3, 0, 0, 0, 0, 7, 0, 0, 2, 2, 2, 2, 0, 0, 7, 7, 0, 0, 0, 0, 3, 3, 0, 0, 0, 7, 6, 0, 0, 0, 0, 0, 0, 0, 0, 6, 0, 0, 7, 0, 0, 3, 3, 0, 0, 2, 2, 2, 2, 0, 0, 7, 7, 0, 0, 2, 2, 2, 2, 6, 0, 0, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 7, 7, 0, 0, 0, 0, 0, 0, 2, 2, 0, 3, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 3, 3, 0, 0, 0, 7, 7, 0, 7, 0, 0, 0, 0, 0, 0, 0, 0, 7, 0, 0, 2, 3, 3, 0, 0, 7, 0, 0, 2, 6, 2, 2, 7, 7, 7, 9, 0, 2, 6, 2, 2, 3, 3, 3, 2, 2, 2, 2, 2, 3, 3, 3, 3, 2, 2, 2, 2, 2, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+         "height":11,
+         "name":"Tile Layer 1",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":21,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "draworder":"topdown",
+         "height":11,
+         "name":"Object Layer 1",
+         "objects":[
+                {
+                 "gid":8,
+                 "height":64,
+                 "id":2,
+                 "name":"",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":64,
+                 "x":62,
+                 "y":572
+                }],
+         "opacity":1,
+         "type":"objectgroup",
+         "visible":true,
+         "width":21,
+         "x":0,
+         "y":0
+        }],
+ "nextobjectid":3,
+ "orientation":"orthogonal",
+ "renderorder":"right-down",
+ "tileheight":64,
+ "tilesets":[
+        {
+         "columns":8,
+         "firstgid":1,
+         "image":"..\/..\/..\/..\/..\/xampp\/htdocs\/code\/Advance game\/assets\/tileset1.png",
+         "imageheight":576,
+         "imagewidth":512,
+         "margin":0,
+         "name":"tileset1",
+         "spacing":0,
+         "tilecount":72,
+         "tileheight":64,
+         "tilewidth":64
+        }],
+ "tilewidth":64,
+ "version":1,
+ "width":21
+}

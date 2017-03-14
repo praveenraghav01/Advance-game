@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    <meta charset = "UTF-8"/>
+    <title> Advance</title>
+    <script src = "phaser.js"></script>
+    <script src = "Boot.js"></script>
+    <script src = "Preloader.js"></script>
+    <script src = "Menu.js"></script>
+    <script src = "Level1.js"></script>
+    <style>
+            body {
+                margin: 0px;
+                padding: 0px;
+            }
+    </style>
+    </head>
+
+    <body>
+        <script type = "text/javascript">
+        window.onload = function(){
+            W = window.innerWidth;
+            H = window.innerHeight;
+            var game = new Phaser.Game(W,H,Phaser.CANVAS,'');
+            game.state.add('Boot',Game.Boot);
+            game.state.add('Preloader',Game.Preloader);
+            game.state.add('Menu',Game.Menu);
+            game.state.add('Level1',Game.Level1);
+
+            game.state.start('Boot');
+        };
+        </script>
+    </body>
+</html>
